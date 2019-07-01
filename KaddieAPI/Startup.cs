@@ -34,7 +34,8 @@ namespace KaddieAPI
 
             services
                 .AddSingleton<RoundService>()
-                .AddSingleton<UserService>();
+                .AddSingleton<UserService>()
+                .AddSingleton<CourseService>();
 
         }
 
