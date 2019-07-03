@@ -25,17 +25,40 @@ namespace KaddieAPI.Services
             return _rounds.Find(round => true).ToList();
         }
 
-        public List<Round> GetRoundsForGolfer(string golferName)
+        public List<Round> GetRoundsForGolfer(string golferID)
         {
-            var list = _rounds.Find(round => round.GolferName == golferName).ToList();
+            var list = _rounds.Find(round => round.GolferID == golferID).ToList();
             return list;
         }
 
-        public Round Create(Round round)
+        public List<Round> GetSortedRoundsForGolferByDateMostRecent(string golferID)
         {
+            return _rounds.Find(round => round.GolferID == golferID).SortByDescending(round => round.Date).ToList();
+        }
+
+        public Round SubmitRound(Round round)
+        {
+            int front9 = 0;
+            int back9 = 0;
+            int total = 0;
+            for(int i = 0; i < 9; i++)
+            {
+                front9 += Convert.ToInt32(round.Scores.ElementAt(i));
+            }
+
+            for(int i = 9; i < 18; i++)
+            {
+                back9 += Convert.ToInt32(round.Scores.ElementAt(i));
+            }
+
+            total = front9 + back9;
+
+            round.Scores.Insert(18, front9.ToString());
+            round.Scores.Insert(19, back9.ToString());
+            round.Scores.Insert(20, total.ToString());
+
             _rounds.InsertOne(round);
             return round;
         }
-
     }
 }

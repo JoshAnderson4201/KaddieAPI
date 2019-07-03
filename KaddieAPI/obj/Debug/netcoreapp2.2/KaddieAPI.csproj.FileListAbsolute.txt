@@ -26,3 +26,17 @@ D:\Dev\Kaddie\KaddieAPI\KaddieAPI\bin\Debug\netcoreapp2.2\KaddieAPI.runtimeconfi
 D:\Dev\Kaddie\KaddieAPI\KaddieAPI\bin\Debug\netcoreapp2.2\KaddieAPI.dll
 D:\Dev\Kaddie\KaddieAPI\KaddieAPI\bin\Debug\netcoreapp2.2\KaddieAPI.pdb
 D:\Dev\Kaddie\KaddieAPI\KaddieAPI\obj\Debug\netcoreapp2.2\KaddieAPI.RazorTargetAssemblyInfo.cache
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\obj\Debug\netcoreapp2.2\KaddieAPI.csprojAssemblyReference.cache
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\obj\Debug\netcoreapp2.2\KaddieAPI.csproj.CoreCompileInputs.cache
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\obj\Debug\netcoreapp2.2\KaddieAPI.RazorAssemblyInfo.cache
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\obj\Debug\netcoreapp2.2\KaddieAPI.RazorAssemblyInfo.cs
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\obj\Debug\netcoreapp2.2\KaddieAPI.AssemblyInfoInputs.cache
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\obj\Debug\netcoreapp2.2\KaddieAPI.AssemblyInfo.cs
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\obj\Debug\netcoreapp2.2\KaddieAPI.dll
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\obj\Debug\netcoreapp2.2\KaddieAPI.pdb
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\bin\Debug\netcoreapp2.2\KaddieAPI.deps.json
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\bin\Debug\netcoreapp2.2\KaddieAPI.runtimeconfig.json
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\bin\Debug\netcoreapp2.2\KaddieAPI.runtimeconfig.dev.json
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\bin\Debug\netcoreapp2.2\KaddieAPI.dll
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\bin\Debug\netcoreapp2.2\KaddieAPI.pdb
+M:\localDev\Kaddie\KaddieAPI\KaddieAPI\obj\Debug\netcoreapp2.2\KaddieAPI.RazorTargetAssemblyInfo.cache

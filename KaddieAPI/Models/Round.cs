@@ -12,12 +12,9 @@ namespace KaddieAPI.Models
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string InternalId { get; set; }
-
-        public string Id { get; set; }
-
-        [BsonElement("GolferName")]
-        public string GolferName { get; set; }
-        public string CourseName { get; set; }
-        public int Score { get; set; }
+        public string GolferID { get; set; }
+        public DateTime Date { get; set; }
+        public bool Completed { get; set; }
+        public List<string> Scores { get; set; }
     }
 }

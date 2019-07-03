@@ -26,17 +26,22 @@ namespace KaddieAPI.Controllers
             return _roundService.Get();
         }
 
-        [HttpGet("{golferName}")]
-        public ActionResult<List<Round>> GetRoundsForGolfer(string golferName)
+        [HttpGet("{golferID}")]
+        public ActionResult<List<Round>> GetRoundsForGolfer(string golferID)
         {
-            return _roundService.GetRoundsForGolfer(golferName);
+            return _roundService.GetRoundsForGolfer(golferID);
+        }
+
+        [HttpGet("date/{golferID}")]
+        public ActionResult<List<Round>> GetSortedRoundsForGolferByDateMostRecent(string golferID)
+        {
+            return _roundService.GetSortedRoundsForGolferByDateMostRecent(golferID);
         }
 
         [HttpPost]
-        public ActionResult<Round> Create(Round round)
+        public ActionResult<Round> SubmitRound(Round round)
         {
-            _roundService.Create(round);
-            return CreatedAtRoute("GetRound", new { id = round.InternalId.ToString() }, round);
+            return _roundService.SubmitRound(round);
         }
 
     }

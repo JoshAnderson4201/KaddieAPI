@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace KaddieAPI.Models
 {
-    public class User
+    public class GolferAccount
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string InternalId { get; set; }
-        public string Id { get; set; }
+        public string GolferID { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
         public string FirstName { get; set; }
